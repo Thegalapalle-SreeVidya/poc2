@@ -30,7 +30,7 @@ class OpenAIClient:
 client = OpenAIClient(api_key="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")
 
 
-filename = 'random_forest_model.joblib'
+filename = 'support_vector_classifier_model.joblib'
 loaded_model = joblib.load(filename)
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
